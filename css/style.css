@@ -1,0 +1,78 @@
+body {
+	font-family: Calibri;
+	font-size: 20px;
+	margin: 30px;
+	align-self: center;
+}
+
+h2{
+	color: white;
+	font-size: 50px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #E8E8E8;
+  text-align: center;
+}
+
+.topnav a {
+  float: left;
+  color: #15111f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #15111f;
+}
+
+.topnav a.active {
+  background-color: #15111f;
+  color: white;
+}
+
+.button {
+  background-color: #E8E8E8;
+  border: none;
+  color: black;
+  text-align: : center;
+  font-size: 25px;
+  font-family: Calibri;
+  padding: 16px;
+  width: 400px;
+  cursor: pointer;
+  margin: 5px;  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+/* content é a setinha que aparece no botão depois */
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+	
+/* hover é a ação do cursor ao passar por cima do botão. */
+/* padding-right é a distancia que o texto percorre com referencia à margem direita.*/
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+} 
