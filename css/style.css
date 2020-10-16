@@ -3,76 +3,73 @@ body {
 	font-size: 20px;
 	margin: 30px;
 	align-self: center;
+  background-attachment: fixed;
 }
 
-h2{
-	color: white;
-	font-size: 50px;
+figure {
+  float: center;
+  width: 710px;
+  text-align: center;
+  font-style: italic;
+  font-size: 10px;
+  text-indent: 0;
+  border: thin gray solid;
+  margin: 0.2em;
+  padding: 0.2em;
+}
+
+.indexH2 {
+  text-shadow: black 0.1em 0.1em 0.5em
+}
+
+.indexFieldset {
+  background-color: #39809B;
+  color: white;
+  font-size: 30px;
+  width: 70%;
+  padding: 50px;
+  margin-top: 200px;
+  border: none;
+}
+
+.fieldset {
+  background-color: white;
+  color: #204452;
+  font-size: 22px;
+  width: 90%;
+  padding: 50px;
+  margin-top: 40px;
+  border: none; 
 }
 
 
 .topnav {
   overflow: hidden;
-  background-color: #E8E8E8;
+  background-color: #FFFFFF;
   text-align: center;
+  font-family: Calibri;
+  padding: 8px;
+  width: 1000px;
+  margin: 0 auto;
+  vertical-align: middle;
 }
 
 .topnav a {
-  float: left;
-  color: #15111f;
+  float: center;
+  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
+  position : relative;
 }
 
 .topnav a:hover {
-  background-color: white;
-  color: #15111f;
+  background-color: #D0D9DD;
+  color: #545454;
 }
 
 .topnav a.active {
-  background-color: #15111f;
+  background-color: #39809B;
   color: white;
 }
-
-.button {
-  background-color: #E8E8E8;
-  border: none;
-  color: black;
-  text-align: : center;
-  font-size: 25px;
-  font-family: Calibri;
-  padding: 16px;
-  width: 400px;
-  cursor: pointer;
-  margin: 5px;  
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-/* content é a setinha que aparece no botão depois */
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-	
-/* hover é a ação do cursor ao passar por cima do botão. */
-/* padding-right é a distancia que o texto percorre com referencia à margem direita.*/
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-} 
