@@ -1,6 +1,6 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-family: Calibri;
+    font-size: 20px;
 }
 
 img{
@@ -36,6 +36,23 @@ img{
     font-size: 55px;
     color: white;
     text-shadow: 5px 5px 10px black;
+}
+
+.titulo {
+    font-family: Calibri;
+    font-size: 30px;
+    color: rgb(83, 85, 87);
+}
+
+.fieldset{
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 17px;
+    padding: 20px;
+    border: none;
+    margin-top: 10px;
 }
 
 #nav {
