@@ -1,75 +1,62 @@
-body {
-	font-family: Calibri;
-	font-size: 20px;
-	margin: 30px;
-	align-self: center;
-  background-attachment: fixed;
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
 }
 
-figure {
-  float: center;
-  width: 710px;
-  text-align: center;
-  font-style: italic;
-  font-size: 10px;
-  text-indent: 0;
-  border: thin gray solid;
-  margin: 0.2em;
-  padding: 0.2em;
+img{
+    max-width: 100%;
 }
 
-.indexH2 {
-  text-shadow: black 0.1em 0.1em 0.5em
+.cabecalho {
+    width: 100%; 
+    float: center;
+    margin-top: 0;
 }
 
-.indexFieldset {
-  background-color: #39809B;
-  color: white;
-  font-size: 30px;
-  width: 70%;
-  padding: 50px;
-  margin-top: 200px;
-  border: none;
+.logo {
+    width: 200px; 
+    height: 56px; 
+    float: left; 
+    background: url(logoPreto.png) center center/200px no-repeat; 
+    font-size: 0;
 }
 
-.fieldset {
-  background-color: white;
-  color: #204452;
-  font-size: 22px;
-  width: 90%;
-  padding: 50px;
-  margin-top: 40px;
-  border: none; 
+.figureIndex {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    height: 50%;;
 }
 
-
-.topnav {
-  overflow: hidden;
-  background-color: #FFFFFF;
-  text-align: center;
-  font-family: Calibri;
-  padding: 8px;
-  width: 1000px;
-  margin: 0 auto;
-  vertical-align: middle;
+.figureIndex figcaption {
+    position: absolute;
+    top: 200px;
+    right: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
 }
 
-.topnav a {
-  float: center;
-  color: black;
-  text-align: center;
-  padding: 16px 20px;
-  text-decoration: none;
-  font-size: 20px;
-  position : relative;
+#nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+     position: relative;
 }
 
-.topnav a:hover {
-  background-color: #D0D9DD;
-  color: #545454;
+#menu {
+    margin-left: 20px;
+    position: relative;
 }
 
-.topnav a.active {
-  background-color: #39809B;
-  color: white;
+.navbar .navbar-nav {
+    display: inline-flex;
+    float: none !important;
+}
+
+.navbar .navbar-collapse {
+    margin-left: 30%;   
+    text-align: center;
 }
