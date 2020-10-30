@@ -1,10 +1,20 @@
 body{
     font-family: Calibri;
     font-size: 20px;
+    color:  rgb(68, 68, 68);
 }
 
 img{
     max-width: 100%;
+}
+
+img, p {
+    display: inline-block;
+}
+
+.a {
+    text-decoration: underline ;
+    color: rgb(49, 49, 49);
 }
 
 .cabecalho {
@@ -38,12 +48,48 @@ img{
     text-shadow: 5px 5px 10px black;
 }
 
+
+.polaroid {
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.polaroid:hover {
+    box-shadow: 5px 5px 10px rgb(49, 49, 49);
+    zoom: 103%;
+}
+
 .titulo {
     font-family: Calibri;
     font-size: 30px;
     color: rgb(83, 85, 87);
 }
 
+.h2 {
+    font-family: Calibri;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.h3 {
+    font-family: Calibri;
+    font-size: 25px;
+    color: black;
+}
+
+div #teste{
+    text-align: left;
+}
 .fieldset{
     background-color: white;
     width: 60%;
