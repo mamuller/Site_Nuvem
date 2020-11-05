@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            
+            
+    
+}
+/*conteiner*/
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+
+    @media (min-width: 1170px){
+        .container{
+            max-width: 1170px;
+            padding: 0;
+        }
+        
+    }    
+/*linha*/
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .2);
+    
+}
+/*pra evitar que o conteudo que ta dentro dela fique maior do que a altura dela*/
+    .row:before
+    .row:after {
+        content: "";
+        display: table;
+        
+    }
+    .row::after {
+        clear: both;
+    }
+/*colunas*/
+.col {
+    display: incline-block;
+    /*para ter todas as caracteristicas de elemento em bloco, porem se comportar como um elemento inline*/
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;/*para quando utilizar em celular/tablet */
+    margin-right: -4px;/*o proprio incidebllock coloca*/
+    
+    
+}
+
+/*personalização*/
+.cores {
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: start;
+    margin: 2px 0;
+    color: rgb(27, 26, 26)
+    
+}
+.big {
+    height: 50px;  
+}
