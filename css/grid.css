@@ -1,25 +1,26 @@
 *{
     padding: 0;
     margin: 0;
-    -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
         -moz-box-sizing: border-box;
             box-sizing: border-box;
-            
-            
-    
+            /*prefixado para servir em todos os navegadores*/
 }
-/*conteiner*/
+
+
+/*conteiner:envolver todo nosso conteudo e definir a largura do site*/
 .container{
-    width: 100%;
+    width: 100%; /*ta pegando a tela inteira*/
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px;
     font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .2);
     
     
 }
 
-
+/*design responsivo*/
     @media (min-width: 1170px){
         .container{
             max-width: 1170px;
@@ -31,10 +32,10 @@
 
 .row {
     margin-left: 0;
-    margin-right: 0;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, .2);
+    margin-right: 0;  
     
 }
+
 /*pra evitar que o conteudo que ta dentro dela fique maior do que a altura dela*/
     .row:before
     .row:after {
@@ -42,7 +43,7 @@
         display: table;
         
     }
-    .row::after {
+    .row:after {
         clear: both;
     }
 /*colunas*/
@@ -71,3 +72,23 @@
 .big {
     height: 50px;  
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #00000000;
+    padding: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .2);
+    
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px initial rgba(0, 0, 0, 0.8);
+    padding: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .imagemsobrenos {
+    
+  }
