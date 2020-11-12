@@ -102,7 +102,7 @@ div #teste{
 }
 
 .fieldsetContato {
-    background-color: #e1e2e4c5;
+    background-color: #f5f4f4;
     background-position: center;
     color: black;
     border-radius: 10px;
@@ -175,4 +175,41 @@ div #teste{
 
 .item3 {
   border: 1px solid black;
+}
+
+#map-canvas {
+   width: 700px;
+   height: 500px;
+   padding: 10px;
+}
+
+#titulo_container {
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.titulo_marcador {
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+.endereco_marcador {
+    font-family: Verdana;
+    font-size: 12px;
+
+}
+
+#telefone {
+    font-family: Verdana;
+}
+
+.img_contato {
+    padding: 10px;
+    border: 0;
+    width: 70px;
+    height: 70px;
+}
+.div_contato {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
